@@ -1,0 +1,12 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.springboot.entity
+spring:
+  application:
+    name: springboot
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    password: admin123
+    url: jdbc:mysql://localhost:3306/alwaysTest?serverTimezone=UTC
+    username: root
